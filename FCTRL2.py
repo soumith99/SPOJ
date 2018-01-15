@@ -1,0 +1,9 @@
+def fact(n):
+  s=1
+  for i in range(1,n+1): s*=i
+  return s
+
+t=input()
+for i in range(t):
+  n=input()
+  print fact(n)
